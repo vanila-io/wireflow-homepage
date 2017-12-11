@@ -1,0 +1,86 @@
+#contact-form-waiting{
+  width:50%;
+  display: block;
+  margin:0 auto;
+  text-align: left;
+}
+
+.form-control {
+    padding: 25px!important;
+    background: transparent!important;
+    border-color: #444444!important;
+    color: #929292!important;
+    font-size: 1.2em!important;
+}
+
+.check{
+  color: #929292;
+  font-size: 1.4em;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.checkbox-inline{
+  margin-top:0!important;
+}
+
+.checkbox-inline label{
+  padding-left:0!important;
+  color: #929292;
+  font-size: 1.2em!important;
+}
+
+textarea.form-control {
+    margin-top: 40px;
+}
+#contact{
+  background:#161321;
+}
+#contact-form-waiting .btnGetStarted{
+  background-color: #f87f7f!important;
+  width: 100%;
+  color: #fff;
+  font-size: 1.4em!important;
+  padding: 10px!important;
+  text-transform: none;
+  margin-bottom:40px!important;
+}
+
+#contact-form-waiting .btnGetStarted:hover{
+      background-color: #e07373!important;
+}
+#contact h2{
+  color: #adaabc;
+margin-top: 80px;
+font-size: 3.6em;
+}
+#contact h3{
+  color: #929292;
+font-size: 1.4em;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+.btnGetStarted, .rowCTA .btn:hover {
+    color: #fff;
+    background-color: #1d85ad!important;
+    border-color: #1d85ad!important;
+}
+.companyInfo {
+    text-align: center;
+    color: #737373;
+    font-size: 1.4em;
+    font-weight: normal!important;
+}
+.termsTxt{
+  color: #444444;
+  font-weight: normal!important;
+  font-size: 2em;
+}
+
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio]{
+  width:auto;
+}
+.btn {
+    font-family: inherit!important;
+}

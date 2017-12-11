@@ -1,0 +1,108 @@
+@media only screen and (max-width:1180px) {
+
+}
+
+
+
+
+@media (max-width:1390px) {
+#section2 h3{
+  height: 60px;
+}
+#section2 .featureDescription{
+  height: 150px;
+}
+
+
+}
+
+@media only screen and (max-width:880px) {
+
+}
+
+@media only screen and (max-width:750px) {
+#headerNew .rowHeader h1{
+  font-size: 3.95rem!important;
+}
+#headerNew .rowHeader h2{
+  font-size: 2.4rem!important;
+}
+#headerNew .btnGetAccess, #headerNew .btnWatchVideo {
+    font-size: 1.8rem !important;
+    padding: 16px 30px 16px 20px !important;
+    height: auto!important;
+    line-height: 1.8rem;
+}
+#headerNew .navbar-brand > img {
+    height: 40px;
+}
+#section1 h2, #section2 h2, #section3 h2, #section4 h2, #section5 h2, #section6 h2, .feedbackTxt, #SectionFewWords h2 {
+  font-size: 2.7rem!important;
+}
+#section1 p, #section2 p, #section3 p, .shortTagline, #section4 p, #section5 p, #section6 .shortTagline, #SectionFewWords p{
+  font-size: 1.6rem!important;
+}
+#section1 button{
+  font-size: 1.6rem !important;
+  padding: 16px 30px 16px 20px !important;
+  height: auto !important;
+  line-height: 1.8rem;
+}
+#section3 h3, .usageCard .featureTitle{
+  font-size: 2.2rem !important;
+}
+#section3 .featureDescription, .usageCard .featureDescription{
+  font-size: 1.4rem!important;
+}
+#section3 img {
+    width: 40px;
+}
+.spanBotBorder {
+    width: 100px;
+}
+.roundBadge {
+    height: 80px;
+    width: 80px;
+}
+.roundBadge img {
+    padding: 0;
+}
+.roundBadgeLabel, #section7 .feedbackAuthor p span:first-child {
+    font-size: 1.6rem !important;
+}
+#section7 .feedbackAuthor p span{
+  font-size: 1.6rem!important;
+}
+
+#section7 .feedbackAuthor p{
+  margin-top:0;
+}
+#section7 .feedbackAuthor img{
+  width:42px;
+  height: 42px;
+}
+#section1 .col-md-12, #section3 .col-md-4{
+  padding-left: 0!important;
+padding-right: 0!important;
+
+}
+
+}
+
+@media only screen and (max-width:450px) {
+  .rowUsageCards .col-md-4 {
+      width: 100% !important;
+  }
+
+}
+@media only screen and (max-width:420px) {
+  #section5 .col-md-2 {
+      width: 50%;
+  }
+  .usageCard img{
+    display: none;
+  }
+}
+@media only screen and (max-width:340px) {
+
+}
