@@ -2,6 +2,8 @@ var path = require('path');
 var webpack = require('webpack');
 var express = require('express');
 
+const port = process.env.PORT || 8000;
+
 var app = express();
 
 if (process.env.NODE_ENV !== 'production') {
@@ -13,7 +15,6 @@ if (process.env.NODE_ENV !== 'production') {
   }));
 
   app.use(require('webpack-hot-middleware')(compiler));
-
 }
 
 // the __dirname is the current directory from where the script is running
@@ -23,7 +24,6 @@ app.get('*', (req, res) => {
   res.sendFile(path.resolve(__dirname, 'index.html'));
 });
 
-const port = 8000;
 app.listen(port, function (err) {
   if (err) {
     return console.error(err);
