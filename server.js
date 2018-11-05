@@ -1,26 +1,33 @@
 var path = require('path');
 var webpack = require('webpack');
 var express = require('express');
-var config = require('./webpack.config');
 
 var app = express();
-var compiler = webpack(config);
 
-app.use(require('webpack-dev-middleware')(compiler, {
-  publicPath: config.output.publicPath
-}));
+if (process.env.NODE_ENV !== 'production') {
+  var config = require('./webpack.config');
+  var compiler = webpack(config);
 
-app.use(require('webpack-hot-middleware')(compiler));
+  app.use(require('webpack-dev-middleware')(compiler, {
+    publicPath: config.output.publicPath
+  }));
 
-app.get('*', function(req, res) {
-  res.sendFile(path.join(__dirname, 'index.html'));
+  app.use(require('webpack-hot-middleware')(compiler));
+
+}
+
+// the __dirname is the current directory from where the script is running
+app.use(express.static(__dirname));
+// send the user to index html page inspite of the url
+app.get('*', (req, res) => {
+  res.sendFile(path.resolve(__dirname, 'index.html'));
 });
 
-
-app.listen(8000, function(err) {
+const port = 8000;
+app.listen(port, function (err) {
   if (err) {
     return console.error(err);
   }
 
-  console.log('Listening at http://localhost:8000/');
+  console.log(`Listening at http://localhost:${port}`);
 })
