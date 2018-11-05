@@ -183,6 +183,12 @@ margin-bottom: 100px!important;
     height: auto;
 
 }
+
+#headerNew .navbar-brand img{
+    width:70%;
+  }
+
+  
 #headerNew .headerIntro{
   overflow: visible;
 }
@@ -255,7 +261,7 @@ margin-bottom: 100px!important;
 .socialIcons {
     float: right;
     width: 16%;
-    margin-top: px;
+    margin-top: -20px;
 }
 
 
@@ -721,7 +727,7 @@ margin-top: -450px;
 
 
 .rowMarginImg {
-    margin-top: 150px;
+    margin-top: 80px;
 }
 
 
@@ -731,7 +737,9 @@ margin-top: -450px;
     width: 60%;
     border-bottom: 1px solid #E1E1E1;
 }
-
+#sectionTwo .col-md-4 img{
+    width:70%!important;
+}
 
 
 

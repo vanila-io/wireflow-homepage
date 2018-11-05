@@ -41,16 +41,16 @@ class Navigation extends React.Component {
                   
             
         <div className="sIconsP faBack">    
-        <a href="#"><i className="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/wireflow/" target="_blank"><i className="fa fa-facebook" aria-hidden="true"></i></a>
         </div>                            
         
         <div className="sIconsP gitBack">    
-        <a href="#"><i className="fa fa-github" aria-hidden="true"></i></a>
+        <a href="https://github.com/vanila-io/wireflow" target="_blank"><i className="fa fa-github" aria-hidden="true"></i></a>
         </div>     
          
         
         <div className="sIconsP twBack">    
-        <a href="#"><i className="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/wireflow_co" target="_blank"><i className="fa fa-twitter" aria-hidden="true"></i></a>
         </div>          
             
               
@@ -66,11 +66,10 @@ class Navigation extends React.Component {
             </ul>
               
             <ul className="nav navbar-nav">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Open Source</a></li>
-              <li><a href="#">UX Tools</a></li>
-              <li><Link to="Client">Crafted by Vanila</Link></li>
+              {/* <li><a href="#">About</a></li> */}
+              <li><a href="https://moon.ly" target="_blank">Open Source</a></li>
+              <li><a href="https://uxstore.com" target="_blank">UX Tools</a></li>
+              <li><a href="https://vanila.io" target="_blank">Crafted by Vanila</a></li>
             
             </ul>
               </div>

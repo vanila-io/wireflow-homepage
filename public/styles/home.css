@@ -69,7 +69,7 @@ img, button, a, p{
 
 .navbar-default .navbar-nav>li>a {
     color: #171717!important;
-    font-size: 22px!important;
+    font-size:18px!important;
     margin-left: 30px;
 }
 
@@ -113,10 +113,7 @@ background-repeat: no-repeat;
     font-family: SegoeRegular;
         line-height: 1.5;
 }
-.rowHeader h1 strong {
-  color: #98a7db;
-font-family: SegoeBlack;
-}
+
 .rowHeader p {
     color: #636a8e;
     font-size: 1.4em;
@@ -125,8 +122,7 @@ font-family: SegoeBlack;
         letter-spacing: -1px;
 }
 .rowHeader p strong {
-    color: #636a8e;
-    font-family: SegoeBold;
+    color: #0f0f0f;
 }
 .buttonGroupHeader{
   display: block;

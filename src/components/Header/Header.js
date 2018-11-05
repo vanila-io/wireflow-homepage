@@ -19,7 +19,7 @@ class Header extends React.Component {
               
             <h3>Free Wire / User Flow Tool</h3>
         
-            <p>Wireflow is <b>free, online and open sorrce tool </b>for creating beautiful user flow prototypes. <b>No Photoshop </b> skills required!</p>
+            <p>Wireflow is <strong>free, online and open sorrce tool </strong>for creating beautiful user flow prototypes. <strong>No Photoshop </strong> skills required!</p>
         
         
         
