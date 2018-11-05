@@ -207,7 +207,6 @@ margin-bottom: 100px!important;
 .navbar .navbar-nav { 
     float: right;
     vertical-align: top;
-    width: 60%;
     margin-top: -60px;
     padding-left: 90px;
     
@@ -1136,16 +1135,9 @@ cursor: pointer;
 /* --  navbar -- */
 
 
-@media (max-width: 1290px) and (min-width: 1222px){
-    .navbar .navbar-nav {
-        width: 74%!important;
-    }
-}
 
 @media (max-width: 1039px) and (min-width: 992px){
-    .navbar .navbar-nav {
-        width: 70%!important;
-    }
+
     
     .navbar-default .navbar-nav>li>a {
         margin-left: 8px;
@@ -1154,9 +1146,7 @@ cursor: pointer;
 
 
 @media (max-width: 1221px) and (min-width: 1122px){
-    .navbar .navbar-nav {
-        width: 71%!important;
-    }
+
 
 }
 
@@ -1178,7 +1168,6 @@ cursor: pointer;
 
 @media (max-width: 1121px) {
     .navbar .navbar-nav {
-        width: 74%;
         margin-top: -52px;
     }
     .socialIcons {

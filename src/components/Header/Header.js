@@ -5,6 +5,7 @@ import ReactVideo from 'react.video';
 
 class Header extends React.Component {
 
+  
   render() {
     return (
       <div id="headerNew">

@@ -35,38 +35,11 @@ class Navigation extends React.Component {
     
     
       
-    
-        <div className="socialIcons">
-                  
-                  
-            
-        <div className="sIconsP faBack">    
-        <a href="https://www.facebook.com/wireflow/" target="_blank"><i className="fa fa-facebook" aria-hidden="true"></i></a>
-        </div>                            
-        
-        <div className="sIconsP gitBack">    
-        <a href="https://github.com/vanila-io/wireflow" target="_blank"><i className="fa fa-github" aria-hidden="true"></i></a>
-        </div>     
-         
-        
-        <div className="sIconsP twBack">    
-        <a href="https://twitter.com/wireflow_co" target="_blank"><i className="fa fa-twitter" aria-hidden="true"></i></a>
-        </div>          
-            
-              
-              
-              
+
           </div>
-          </div>
-           
-          {/* <ul className="nav navbar-nav display">
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Pricing</a></li>
-              <li><a href="#">Faq</a></li>
-            </ul> */}
+
               
             <ul className="nav navbar-nav">
-              {/* <li><a href="#">About</a></li> */}
               <li><a href="https://github.com/vanila-io/wireflow" target="_blank">Open Source</a></li>
               <li><a href="https://uxstore.com" target="_blank">UX Tools</a></li>
               <li><a href="https://vanila.io" target="_blank">Crafted by Vanila</a></li>
