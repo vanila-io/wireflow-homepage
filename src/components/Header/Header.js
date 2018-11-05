@@ -17,9 +17,9 @@ class Header extends React.Component {
               <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12 columnOneSett">
 
               
-            <h3>Open Source Wireflow Tool</h3>
+            <h3>Free Wire / User Flow Tool</h3>
         
-            <p>Wireflow is <b>free online tool </b>for creating beautiful user flow prototypes. <b>No Photoshop </b> skills required!</p>
+            <p>Wireflow is <b>free, online and open sorrce tool </b>for creating beautiful user flow prototypes. <b>No Photoshop </b> skills required!</p>
         
         
         
@@ -39,7 +39,7 @@ class Header extends React.Component {
                     
                 <div className="imgFlow">
         
-                 <img src={require('../../../public/img/homeAssets/wireFlow/icons/wireflowscreen20.png')} alt="Automatio.co"/> 
+                 <img src={require('../../../public/img/homeAssets/wireFlow/icons/wireflowscreen20.png')} alt="Wireflow"/> 
         
                 </div>
                 </div>
@@ -65,7 +65,7 @@ class Header extends React.Component {
 
                       <h3>100+ graphics to use</h3>
 
-                      <p>Wireflow have over 100 graphics or user cases.</p>
+                      <p>Wireflow have over 100 custom build graphics/cards to use, which cover most the web elements, interactions and usage cases.</p>
 
                     </div>
 
@@ -83,7 +83,7 @@ class Header extends React.Component {
 
                       <h3>Real-Time collaboration</h3>
 
-                      <p>Vanila crew is in love with Meteor.js, which is latest technology based on JavaScript (Node.js). It gives you fast, realtime, scalable applications which work on all modern browsers and devices.</p>
+                      <p>Wireflow comes with collaboration in mind. You can invite your co-worker and togehter in real-time design the user flow for your next project.</p>
 
                     </div>
 
@@ -101,7 +101,7 @@ class Header extends React.Component {
 
                       <h3>Project permisions</h3>
 
-                      <p>Vanila crew is in love with Meteor.js, which is latest technology based on JavaScript (Node.js). It gives you fast, realtime, scalable applications which work on all modern browsers and devices.</p>
+                      <p>You can decide who have access to project/room you are working and is it public or private.</p>
 
                     </div>
 
@@ -120,7 +120,7 @@ class Header extends React.Component {
 
                       <h3>Live chat</h3>
 
-                      <p>Wireflow have over 100 graphics or user cases.</p>
+                      <p>It have built in live chat which give you ability to communicate with your team mate and still be in the same app while you collaborating in real-time. </p>
 
                     </div>
 
@@ -139,7 +139,7 @@ class Header extends React.Component {
 
                       <h3>Easy to use interface</h3>
 
-                      <p>Vanila crew is in love with Meteor.js, which is latest technology based on JavaScript (Node.js). It gives you fast, realtime, scalable applications which work on all modern browsers and devices.</p>
+                      <p>Simple, minimal and easy to use interface will bring you good experience while using it.</p>
 
                     </div>
 
@@ -159,7 +159,7 @@ class Header extends React.Component {
 
                       <h3>No Photoshop skills required</h3>
 
-                      <p>Vanila crew is in love with Meteor.js, which is latest technology based on JavaScript (Node.js). It gives you fast, realtime, scalable applications which work on all modern browsers and devices.</p>
+                      <p>Wireflow is great and easy to you use cause you don't need to install or have previous experience in any complicated software.</p>
 
                     </div>
 
@@ -182,16 +182,16 @@ class Header extends React.Component {
                                              
                 <div className="textReal">                             
                                              
-                  <h1>Real-Time Collaboration</h1>  
+                  <h1>About Wireflow Project</h1>  
                                              
                                              
                    
                             
-                    <p className="marTp">Vanila crew is in love with Meteor.js, which is latest technology based on JavaScript (Node.js).<br />
-                    It gives you fast, realtime, scalable applications which work on all modern browsers and devices.</p>
+                    <p className="marTp">Wireflow was born per need to simplify process in early stage of project planing and braindstorming.<br />
+                    Our mission is to remove needs for complex softwares like Photoshop, Illustrator or need to buy any wireframe or user flow kit.</p>
                                              
-                    <p className="marTp">Vanila crew is in love with Meteor.js, which is latest technology based on JavaScript (Node.js). <br />
-                    It gives you fast, realtime, scalable applications which work on all modern browsers and devices.</p>
+                    <p className="marTp">This side project was built in less then month while rapidly and on thefly developed along with other main project at the time. <br />
+                    So, this is a just prototype which validated our idea of a simple and yet useful app which save tons of time. Please be aware, it's buggy and free!</p>
                                              
                     </div> 
                     
