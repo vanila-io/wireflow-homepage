@@ -1,0 +1,12 @@
+{
+    "apps": [
+        {
+            "name": "wireflow-homepage",
+            "script": "server.js",
+            "env": {
+                "PORT": 8000,
+                "NODE_ENV": "production"
+            }
+        }
+    ]
+}

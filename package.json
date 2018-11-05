@@ -4,6 +4,8 @@
   "description": "Wireflow is free online tool for creating beautiful user flow prototypes. No Photoshop skills required!",
   "scripts": {
     "start": "node server.js",
+    "serve": "NODE_ENV=production npm run start",
+    "build": "webpack -p",
     "lint": "eslint src"
   },
   "keywords": [],
