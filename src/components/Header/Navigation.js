@@ -68,8 +68,9 @@ class Navigation extends React.Component {
             <ul className="nav navbar-nav">
               <li><a href="#">Home</a></li>
               <li><a href="#">About</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><Link to="Client">Reach us</Link></li>
+              <li><a href="#">Open Source</a></li>
+              <li><a href="#">UX Tools</a></li>
+              <li><Link to="Client">Crafted by Vanila</Link></li>
             
             </ul>
               </div>
