@@ -91,15 +91,15 @@ class Section3 extends React.Component {
         
          <div className="textBottom">
             
-        <p>
-        Founder of Vanila Web Studio, Automatio.co, Wireflow.co, Moon.ly, UXStore.com
-        </p>
+        {/*  */}
             
         </div>
         
         
         </div>
-        
+       {/* <p>
+        Founder of Vanila Web Studio, Automatio.co, Wireflow.co, Moon.ly, UXStore.com
+        </p>  */}
         
         
         </div>
@@ -175,7 +175,7 @@ class Section3 extends React.Component {
         
          <div className="textBottom">
             
-        <p>Digital Maiden - Web Developer at Vanila.io</p>
+        {/* <p>Digital Maiden - Web Developer at Vanila.io</p> */}
             
         </div>
         
@@ -233,14 +233,14 @@ class Section3 extends React.Component {
         </div>
         
         
-        <div className="secondCol">
+        {/* <div className="secondCol">
             
         <h3>41</h3>
         
         <p>pulls</p>    
             
             
-        </div>
+        </div> */}
             
         </div>    
             
@@ -255,7 +255,7 @@ class Section3 extends React.Component {
         
          <div className="textBottom">
             
-        <p>Earned praise for licensing sock monkeys in Gainesville, FL. Spent college summers deploying xylophones on the black market. Have a strong</p>
+        {/* <p>Earned praise for licensing sock monkeys in Gainesville, FL. Spent college summers deploying xylophones on the black market. Have a strong</p> */}
             
         </div>
         
@@ -337,9 +337,9 @@ class Section3 extends React.Component {
         
          <div className="textBottom">
             
-        <p>
+        {/* <p>
         Linux SysAdmin. On free time, Open Source code and translation contributor. Maintainer of Wekan and TSC.
-        </p>
+        </p> */}
             
         </div>
         
@@ -421,7 +421,7 @@ class Section3 extends React.Component {
         
          <div className="textBottom">
             
-        <p>Earned praise for licensing sock monkeys in Gainesville, FL. Spent college summers deploying xylophones on the black market. Have a strong</p>
+        {/* <p>Earned praise for licensing sock monkeys in Gainesville, FL. Spent college summers deploying xylophones on the black market. Have a strong</p> */}
             
         </div>
         
@@ -501,7 +501,7 @@ class Section3 extends React.Component {
         
          <div className="textBottom">
             
-        <p>Earned praise for licensing sock monkeys in Gainesville, FL. Spent college summers deploying xylophones on the black market. Have a strong</p>
+        {/* <p>Earned praise for licensing sock monkeys in Gainesville, FL. Spent college summers deploying xylophones on the black market. Have a strong</p> */}
             
         </div>
         

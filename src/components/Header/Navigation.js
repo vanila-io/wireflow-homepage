@@ -59,15 +59,15 @@ class Navigation extends React.Component {
           </div>
           </div>
            
-          <ul className="nav navbar-nav display">
+          {/* <ul className="nav navbar-nav display">
               <li><a href="#">Features</a></li>
               <li><a href="#">Pricing</a></li>
               <li><a href="#">Faq</a></li>
-            </ul>
+            </ul> */}
               
             <ul className="nav navbar-nav">
               {/* <li><a href="#">About</a></li> */}
-              <li><a href="https://moon.ly" target="_blank">Open Source</a></li>
+              <li><a href="https://github.com/vanila-io/wireflow" target="_blank">Open Source</a></li>
               <li><a href="https://uxstore.com" target="_blank">UX Tools</a></li>
               <li><a href="https://vanila.io" target="_blank">Crafted by Vanila</a></li>
             
