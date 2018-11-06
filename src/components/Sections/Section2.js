@@ -7,13 +7,11 @@ import Tab from 'react-bootstrap/lib/Tab';
 
 
 class Section2 extends React.Component {
+
+
   render() {
     return (
-     
-        
-    
-    
-    
+
  
   <div id="sectionTwo">
        

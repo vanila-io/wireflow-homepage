@@ -192,6 +192,15 @@ margin-bottom: 100px!important;
     background: transparent!important;
     padding-top: 70px;
 }
+#headerNew .navbar-default li a img{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    display: block;
+    float: left;
+    margin-top: -6px;
+    border-radius: 4px;
+}
 #headerNew .navbar-header, #headerNew .navbar-brand{
     float:none;
     height: auto;
@@ -752,7 +761,9 @@ margin-top: -450px;
     border-bottom: 1px solid #E1E1E1;
 }
 #sectionTwo .col-md-4 img{
-    width:70%!important;
+    width: 60%!important;
+    margin: 0 auto;
+    display: block;
 }
 
 

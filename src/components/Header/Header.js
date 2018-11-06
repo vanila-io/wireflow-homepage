@@ -5,8 +5,10 @@ import ReactVideo from 'react.video';
 
 class Header extends React.Component {
 
-  
+
   render() {
+    let url = [...Array(15)].map(i=>(~~(Math.random()*36)).toString(36)).join('');
+
     return (
       <div id="headerNew">
         <div className="headerIntro">
@@ -26,9 +28,8 @@ class Header extends React.Component {
         
             <div className="btnStart">
         
-             <button div className="btn btn-default btnStartFlow">start designing</button>
+             <a className="btn btn-default btnStartFlow" href={"https://app.wireflow.co/wire/"+url} target="_blank">start designing</a>
         
-    
         
            </div>
            </div>

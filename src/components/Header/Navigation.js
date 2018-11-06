@@ -40,9 +40,9 @@ class Navigation extends React.Component {
 
               
             <ul className="nav navbar-nav">
-              <li><a href="https://github.com/vanila-io/wireflow" target="_blank">Open Source</a></li>
-              <li><a href="https://uxstore.com" target="_blank">UX Tools</a></li>
-              <li><a href="https://vanila.io" target="_blank">Crafted by Vanila</a></li>
+              <li><a href="https://github.com/vanila-io/wireflow" target="_blank"><img src={require('../../../public/img/homeAssets/wireFlow/icons/githubIcon.png')} alt="wireflow.co github"/>Open Source</a></li>
+              <li><a href="https://uxstore.com" target="_blank"><img src={require('../../../public/img/homeAssets/wireFlow/icons/uxstoreIcon.jpg')} alt="uxstore.com"/>UX Tools</a></li>
+              <li><a href="https://vanila.io" target="_blank"><img src={require('../../../public/img/homeAssets/wireFlow/icons/vanilaioIcon.png')} alt="vanila.io"/>Crafted by Vanila</a></li>
             
             </ul>
               </div>

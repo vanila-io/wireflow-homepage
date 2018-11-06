@@ -160,7 +160,6 @@ background-repeat: no-repeat;
 
 .columnOneSett .btnStart .btnStartFlow  {
     width: 247px;
-    height: 70px;
     background: #4154F9;
     color: #fff;
     text-transform: uppercase;
@@ -169,7 +168,7 @@ background-repeat: no-repeat;
     font-weight: 600;
     border-radius: 10px;
     border: none;
-    
+    padding:20px 0;
 }
 
 
