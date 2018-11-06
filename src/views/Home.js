@@ -128,7 +128,7 @@ export default class Preview extends Component {
               <Section7 />
               <SectionFewWords />
               */}
-              <ContactForm />
+              {/* <ContactForm /> */}
 
             </div>
 

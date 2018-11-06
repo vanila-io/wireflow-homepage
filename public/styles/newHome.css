@@ -62,6 +62,20 @@
 	z-index: 1000;
     */
 }
+.nav-tabs > li > a{
+    font-size: 1.125em;
+    color: #171719;
+    font-weight: 600;
+    margin-right: 30px!important;
+    border:none!important;
+    border-radius: 0!important;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    border:none;
+    background-color:transparent;
+    color:#171719;
+    border-bottom: 2px solid #2043cf!important;
+}
 #section3{
   background: #f2a2ac; /* Old Browsers */
   /* background: -webkit-linear-gradient(top right,#330C56,#E57CE5); /*Safari 5.1-6*/
@@ -659,6 +673,7 @@ margin-top: -450px;
     font-size:  3.125em;
     color: #171717;
     font-weight: 600;
+    margin-bottom:40px;
 }
 
 .secTwoList {
