@@ -39,7 +39,7 @@ class Section3 extends React.Component {
         
         <figure className="backEffectOne">
         
-         <img src={require('../../../public/img/homeAssets/wireFlow/faces/stefan.png')} alt="Automatio.co"/> 
+         <img src={require('../../../public/img/homeAssets/wireFlow/faces/stefan.jpg')} alt="Stefan Smiljkovic - Founder of Vanila.io"/> 
         
         </figure>
         
@@ -52,7 +52,7 @@ class Section3 extends React.Component {
         
         <h3>Stefan Smiljkovic</h3>
         
-        <p>Founder of Wireflow.co</p>
+        <p>Founder of Vanila.io</p>
         
         <p><i className="fa fa-map-marker" aria-hidden="true"></i>Serbia</p>
             
@@ -91,15 +91,15 @@ class Section3 extends React.Component {
         
          <div className="textBottom">
             
-        {/*  */}
+         <p>
+         Biz Dev, Growth Hacker, Founder of Automatio.co, Vanila.io, Wireflow.co, Moon.ly, UXStore.com
+        </p> 
             
         </div>
         
         
         </div>
-       {/* <p>
-        Founder of Vanila Web Studio, Automatio.co, Wireflow.co, Moon.ly, UXStore.com
-        </p>  */}
+       
         
         
         </div>
@@ -123,7 +123,7 @@ class Section3 extends React.Component {
         
         <figure className="backEffectOne">
         
-         <img src={require('../../../public/img/homeAssets/wireFlow/faces/jelena.jpg')} alt="Automatio.co"/> 
+         <img src={require('../../../public/img/homeAssets/wireFlow/faces/jelena.jpg')} alt="Jelena Jovanovic - frontend developer"/> 
         
         </figure>
         
@@ -175,7 +175,7 @@ class Section3 extends React.Component {
         
          <div className="textBottom">
             
-        {/* <p>Digital Maiden - Web Developer at Vanila.io</p> */}
+        <p>Digital Maiden - Co-Founder &amp; Front End Developer at Vanila.io</p>
             
         </div>
         
@@ -216,7 +216,7 @@ class Section3 extends React.Component {
         
         <h3>Abu Taher</h3>
         
-        <p>Full Stack Developer, JavaScript</p>
+        <p>Full Stack Developer</p>
         
         <p><i className="fa fa-map-marker" aria-hidden="true"></i>Bangladesh</p>
             
@@ -255,7 +255,7 @@ class Section3 extends React.Component {
         
          <div className="textBottom">
             
-        {/* <p>Earned praise for licensing sock monkeys in Gainesville, FL. Spent college summers deploying xylophones on the black market. Have a strong</p> */}
+        <p>Wandering around programming world. Likes to experiment, learn and teach. JavaScript lover.</p>
             
         </div>
         
@@ -298,7 +298,7 @@ class Section3 extends React.Component {
         
         <h3>Lauri Ojansivu</h3>
         
-        <p>Linux SysAdmin &amp; Maintainer of Wekan</p>
+        <p>Maintainer of Wekan</p>
         
         <p><i className="fa fa-map-marker" aria-hidden="true"></i>Finland</p>
             
@@ -337,9 +337,9 @@ class Section3 extends React.Component {
         
          <div className="textBottom">
             
-        {/* <p>
+        <p>
         Linux SysAdmin. On free time, Open Source code and translation contributor. Maintainer of Wekan and TSC.
-        </p> */}
+        </p>
             
         </div>
         
@@ -421,8 +421,7 @@ class Section3 extends React.Component {
         
          <div className="textBottom">
             
-        {/* <p>Earned praise for licensing sock monkeys in Gainesville, FL. Spent college summers deploying xylophones on the black market. Have a strong</p> */}
-            
+    <p>Coder. Freelancer. Learning Constantly. Solving problems at work. Likes growth hacking.</p>            
         </div>
         
         
@@ -501,7 +500,7 @@ class Section3 extends React.Component {
         
          <div className="textBottom">
             
-        {/* <p>Earned praise for licensing sock monkeys in Gainesville, FL. Spent college summers deploying xylophones on the black market. Have a strong</p> */}
+        <p>Helping startups in creating, maintaining, improving &amp; growing their Ideas &amp; Apps.</p>
             
         </div>
         
