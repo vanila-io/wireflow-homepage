@@ -123,7 +123,7 @@ class Section3 extends React.Component {
         
         <figure className="backEffectOne">
         
-         <img src={require('../../../public/img/homeAssets/wireFlow/faces/jelena.jpg')} alt="Jelena Jovanovic - frontend developer"/> 
+         <img src={require('../../../public/img/homeAssets/wireFlow/faces/jelena.jpg')} alt="Jelena Jovanovic - front end developer"/> 
         
         </figure>
         
@@ -203,7 +203,7 @@ class Section3 extends React.Component {
         
         <figure className="backEffectOne">
         
-         <img src={require('../../../public/img/homeAssets/wireFlow/faces/tahy.jpg')} alt="Automatio.co"/> 
+         <img src={require('../../../public/img/homeAssets/wireFlow/faces/tahy.jpg')} alt="Abu Taher - Full Stack Developer"/> 
         
         </figure>
         
@@ -285,7 +285,7 @@ class Section3 extends React.Component {
         
         <figure className="backEffectOne">
         
-         <img src={require('../../../public/img/homeAssets/wireFlow/faces/lauri.jpg')} alt="Automatio.co"/> 
+         <img src={require('../../../public/img/homeAssets/wireFlow/faces/lauri.jpg')} alt="Lauri Ojansivu - Maintainer of Wekan"/> 
         
         </figure>
         
@@ -369,7 +369,7 @@ class Section3 extends React.Component {
         
         <figure className="backEffectOne">
         
-         <img src={require('../../../public/img/homeAssets/wireFlow/faces/alur.jpg')} alt="Automatio.co"/> 
+         <img src={require('../../../public/img/homeAssets/wireFlow/faces/alur.jpg')} alt="Raul Torrefiel"/> 
         
         </figure>
         
@@ -448,7 +448,7 @@ class Section3 extends React.Component {
         
         <figure className="backEffectOne">
         
-         <img src={require('../../../public/img/homeAssets/wireFlow/faces/taqi.jpg')} alt="Automatio.co"/> 
+         <img src={require('../../../public/img/homeAssets/wireFlow/faces/taqi.jpg')} alt="Taqi Mustafa - Front End Developer"/> 
         
         </figure>
         

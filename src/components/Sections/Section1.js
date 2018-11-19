@@ -31,7 +31,7 @@ class Section1 extends React.Component {
         
         <div className="btnFully">
         
-        <button div className="btn btn-default btnFullySett">check on github</button>
+        <a href="https://github.com/vanila-io/wireflow" className="btn btn-default btnFullySett" target="_blank">check on github</a>
         
     
         

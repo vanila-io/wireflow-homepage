@@ -542,7 +542,7 @@ margin-top: -450px;
 
 #sectionOne .btnFullySett {
     width: 247px;
-    height: 70px;
+    height: auto;
     color: #1F2020;
     background: transparent;
     border: 3px solid #1F2020;
@@ -551,7 +551,7 @@ margin-top: -450px;
     font-size: 20px;
     font-weight: 600;
     border-radius: 10px;
-   
+   padding:15px;
 }
 
 #sectionOne .btnFullySett:hover {
