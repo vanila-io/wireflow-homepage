@@ -1,8 +1,1 @@
-# wireflow homepage
-
-### Usage
-```
-npm install
-npm start
-open http://localhost:8000
-```
+Project moved to https://github.com/vanila-io/wireflow
