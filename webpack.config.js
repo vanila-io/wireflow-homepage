@@ -12,7 +12,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'static'),
     filename: 'bundle.js',
-    publicPath: '/static/'
+    publicPath: '/public/'
   },
   plugins:  debug ?  [
       new ExtractTextPlugin("styles.css"),
