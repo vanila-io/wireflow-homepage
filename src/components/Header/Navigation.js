@@ -14,7 +14,7 @@ class Navigation extends React.Component {
         
         
       <nav className="navbar navbar-default z7">
-        <audio id="audio" src="http://front-end-noobs.com/jecko/assets/sound4.mp3"></audio>
+        <audio id="audio" src="https://front-end-noobs.com/jecko/assets/sound4.mp3"></audio>
           
 
        <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
