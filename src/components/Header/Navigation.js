@@ -28,7 +28,7 @@ class Navigation extends React.Component {
             </button>*/}
         
         <div className="logoText">
-            <a className="navbar-brand" href="#"><img src={require('../../../public/img/homeAssets/wireFlow/icons/Logowireflow.png')} alt="Automatio.co"/></a>
+            <a className="navbar-brand" href="#"><img src={require('../../img/homeAssets/wireFlow/icons/Logowireflow.png')} alt="Automatio.co"/></a>
     
  
     </div>
@@ -40,10 +40,10 @@ class Navigation extends React.Component {
 
               
             <ul className="nav navbar-nav">
-              <li><a href="https://community.vanila.io" target="_blank"><img src={require('../../../public/img/homeAssets/wireFlow/icons/vanilaioIcon.png')} alt="community.vanila.io"/>Join Community</a></li>
-              <li><a href="https://github.com/vanila-io/wireflow" target="_blank"><img src={require('../../../public/img/homeAssets/wireFlow/icons/githubIcon.png')} alt="wireflow.co github"/>Open Source</a></li>
-              <li><a href="https://uxstore.com" target="_blank"><img src={require('../../../public/img/homeAssets/wireFlow/icons/uxstoreIcon.jpg')} alt="uxstore.com"/>UX Tools</a></li>
-              <li><a href="https://vanila.io" target="_blank"><img src={require('../../../public/img/homeAssets/wireFlow/icons/vanilaioIcon.png')} alt="vanila.io"/>Crafted by Vanila</a></li>
+              <li><a href="https://community.vanila.io" target="_blank"><img src={require('../../img/homeAssets/wireFlow/icons/vanilaioIcon.png')} alt="community.vanila.io"/>Join Community</a></li>
+              <li><a href="https://github.com/vanila-io/wireflow" target="_blank"><img src={require('../../img/homeAssets/wireFlow/icons/githubIcon.png')} alt="wireflow.co github"/>Open Source</a></li>
+              <li><a href="https://uxstore.com" target="_blank"><img src={require('../../img/homeAssets/wireFlow/icons/uxstoreIcon.jpg')} alt="uxstore.com"/>UX Tools</a></li>
+              <li><a href="https://vanila.io" target="_blank"><img src={require('../../img/homeAssets/wireFlow/icons/vanilaioIcon.png')} alt="vanila.io"/>Crafted by Vanila</a></li>
             </ul>
               </div>
               

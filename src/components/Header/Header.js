@@ -1,13 +1,10 @@
 import React from 'react';
 import Navigation from './Navigation';
-import {Link} from 'react-router';
-import ReactVideo from 'react.video';
 
 class Header extends React.Component {
 
 
   render() {
-    let url = [...Array(15)].map(i=>(~~(Math.random()*36)).toString(36)).join('');
 
     return (
       <div id="headerNew">
@@ -22,13 +19,13 @@ class Header extends React.Component {
               
             <h3>Free Wire / User Flow Tool</h3>
         
-            <p>Wireflow is <strong>free, online and open sorrce tool </strong>for creating beautiful user flow prototypes. <strong>No Photoshop </strong> skills required!</p>
+            <p>Wireflow is <strong>free, online and open source tool </strong>for creating beautiful user flow prototypes. <strong>No Photoshop </strong> skills required!</p>
         
         
         
             <div className="btnStart">
         
-             <a className="btn btn-default btnStartFlow" href={"https://app.wireflow.co/wire/"+url} target="_blank">start designing</a>
+             <a className="btn btn-default btnStartFlow" href="https://app.wireflow.co" target="_blank">start designing</a>
         
         
            </div>
@@ -41,7 +38,7 @@ class Header extends React.Component {
                     
                 <div className="imgFlow">
         
-                 <img src={require('../../../public/img/homeAssets/wireFlow/icons/wireflowscreen20.png')} alt="Wireflow"/> 
+                 <img src={require('../../img/homeAssets/wireFlow/icons/wireflowscreen20.png')} alt="Wireflow"/> 
         
                 </div>
                 </div>
@@ -59,7 +56,7 @@ class Header extends React.Component {
 
                     <div className="icoImg">
 
-                      <img className="" src={require('../../../public/img/homeAssets/wireFlow/icons/img1.png')} alt=""/>
+                      <img className="" src={require('../../img/homeAssets/wireFlow/icons/img1.png')} alt=""/>
 
                     </div>
 
@@ -77,7 +74,7 @@ class Header extends React.Component {
 
                     <div className="icoImg">
 
-                      <img className="" src={require('../../../public/img/homeAssets/wireFlow/icons/img2.png')} alt=""/>
+                      <img className="" src={require('../../img/homeAssets/wireFlow/icons/img2.png')} alt=""/>
 
                     </div>
 
@@ -95,7 +92,7 @@ class Header extends React.Component {
 
                     <div className="icoImg">
 
-                      <img className="" src={require('../../../public/img/homeAssets/wireFlow/icons/img3.png')} alt=""/>
+                      <img className="" src={require('../../img/homeAssets/wireFlow/icons/img3.png')} alt=""/>
 
                     </div>
 
@@ -114,7 +111,7 @@ class Header extends React.Component {
 
                     <div className="icoImg">
 
-                      <img className="" src={require('../../../public/img/homeAssets/wireFlow/icons/img1.png')} alt=""/>
+                      <img className="" src={require('../../img/homeAssets/wireFlow/icons/img1.png')} alt=""/>
 
                     </div>
 
@@ -133,7 +130,7 @@ class Header extends React.Component {
 
                     <div className="icoImg">
 
-                      <img className="" src={require('../../../public/img/homeAssets/wireFlow/icons/img2.png')} alt=""/>
+                      <img className="" src={require('../../img/homeAssets/wireFlow/icons/img2.png')} alt=""/>
 
                     </div>
 
@@ -153,7 +150,7 @@ class Header extends React.Component {
 
                     <div className="icoImg">
 
-                      <img className="" src={require('../../../public/img/homeAssets/wireFlow/icons/img3.png')} alt=""/>
+                      <img className="" src={require('../../img/homeAssets/wireFlow/icons/img3.png')} alt=""/>
 
                     </div>
 

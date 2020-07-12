@@ -57,7 +57,7 @@ class Section1 extends React.Component {
             
         <div className="nodeImg">
             
-        <img src={require('../../../public/img/homeAssets/wireFlow/icons/meteor-tech.png')} alt="Automatio.co"/>     
+        <img src={require('../../img/homeAssets/wireFlow/icons/meteor-tech.png')} alt="Automatio.co"/>     
             
         </div>
                   
@@ -78,7 +78,7 @@ class Section1 extends React.Component {
                   
         <div className="gitHubImg">
                   
-        <img src={require('../../../public/img/homeAssets/wireFlow/icons/github-icon.png')} alt="Automatio.co"/>  
+        <img src={require('../../img/homeAssets/wireFlow/icons/github-icon.png')} alt="Automatio.co"/>  
             
             
         <div className="imgAndText">
@@ -86,7 +86,7 @@ class Section1 extends React.Component {
         <div className="starImg">
             
             
-         <img src={require('../../../public/img/homeAssets/wireFlow/icons/github-star.png')} alt="Automatio.co"/>     
+         <img src={require('../../img/homeAssets/wireFlow/icons/github-star.png')} alt="Automatio.co"/>     
             
             
         </div>    
@@ -116,7 +116,7 @@ class Section1 extends React.Component {
             
         <div className="nodeImg">
             
-        <img src={require('../../../public/img/homeAssets/wireFlow/icons/meteor-tech-1.png')} alt="Automatio.co"/>     
+        <img src={require('../../img/homeAssets/wireFlow/icons/meteor-tech-1.png')} alt="Automatio.co"/>     
             
         </div>
                   
@@ -137,7 +137,7 @@ class Section1 extends React.Component {
                   
         <div className="gitHubImg">
                   
-        <img src={require('../../../public/img/homeAssets/wireFlow/icons/github-icon.png')} alt="Automatio.co"/>  
+        <img src={require('../../img/homeAssets/wireFlow/icons/github-icon.png')} alt="Automatio.co"/>  
             
             
         <div className="imgAndText">
@@ -145,7 +145,7 @@ class Section1 extends React.Component {
         <div className="starImg">
             
             
-         <img src={require('../../../public/img/homeAssets/wireFlow/icons/github-star.png')} alt="Automatio.co"/>     
+         <img src={require('../../img/homeAssets/wireFlow/icons/github-star.png')} alt="Automatio.co"/>     
             
             
         </div>    
@@ -177,7 +177,7 @@ class Section1 extends React.Component {
             
         <div className="nodeImg">
             
-        <img src={require('../../../public/img/homeAssets/wireFlow/icons/react.png')} alt="Automatio.co"/>     
+        <img src={require('../../img/homeAssets/wireFlow/icons/react.png')} alt="Automatio.co"/>     
             
         </div>
                   
@@ -198,7 +198,7 @@ class Section1 extends React.Component {
                   
         <div className="gitHubImg">
                   
-        <img src={require('../../../public/img/homeAssets/wireFlow/icons/github-icon.png')} alt="Automatio.co"/>  
+        <img src={require('../../img/homeAssets/wireFlow/icons/github-icon.png')} alt="Automatio.co"/>  
             
             
         <div className="imgAndText">
@@ -206,7 +206,7 @@ class Section1 extends React.Component {
         <div className="starImg">
             
             
-         <img src={require('../../../public/img/homeAssets/wireFlow/icons/github-star.png')} alt="Automatio.co"/>     
+         <img src={require('../../img/homeAssets/wireFlow/icons/github-star.png')} alt="Automatio.co"/>     
             
             
         </div>    

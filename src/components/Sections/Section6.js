@@ -15,7 +15,7 @@ class Section6 extends React.Component {
            <div className="col-md-12">
              <div className="col-md-4 col-sm-6 featureBottom">
                <div className="usageCard">
-               <img src={require('../../../public/img/homeAssets/usage-cards/1.png')} />
+               <img src={require('../../img/homeAssets/usage-cards/1.png')} />
                 <h3 className="featureTitle">Ecommerce Price Monitoring</h3>
                 <p className="featureDescription">
                   You can monitor your best competitors, their prices and get alerts on change.
@@ -26,7 +26,7 @@ class Section6 extends React.Component {
              </div>
              <div className="col-md-4 featureBottom featureMid">
                <div className="usageCard">
-               <img src={require('../../../public/img/homeAssets/usage-cards/2.png')} />
+               <img src={require('../../img/homeAssets/usage-cards/2.png')} />
                 <h3 className="featureTitle">SEO & Link Building</h3>
                 <p className="featureDescription">
                   You can search for competitors in your niche, who talk about them and create new link opportunity from extracted data.
@@ -37,7 +37,7 @@ class Section6 extends React.Component {
              </div>
              <div className="col-md-4 featureBottom featureBottom3">
                <div className="usageCard">
-               <img src={require('../../../public/img/homeAssets/usage-cards/3.png')} />
+               <img src={require('../../img/homeAssets/usage-cards/3.png')} />
                 <h3 className="featureTitle">Machine Learning / AI</h3>
                 <p className="featureDescription">
                   When it comes to machine learning, Automatio seems like missing link in that story. A platform like MonkeyLearn.com gives you the ability to actually learn from your data.
@@ -49,7 +49,7 @@ class Section6 extends React.Component {
            <div className="col-md-12 usageCardsUp">
              <div className="col-md-4 featureBottom">
                <div className="usageCard">
-               <img src={require('../../../public/img/homeAssets/usage-cards/4.png')} />
+               <img src={require('../../img/homeAssets/usage-cards/4.png')} />
                 <h3 className="featureTitle">Dropshipping & Bulk Product Import</h3>
                 <p className="featureDescription">
                   So you wanna start new drop shipping niche or just add new category or products to your existing Shopify store.
@@ -60,7 +60,7 @@ class Section6 extends React.Component {
              </div>
              <div className="col-md-4 featureBottom featureMid">
                <div className="usageCard">
-               <img src={require('../../../public/img/homeAssets/usage-cards/5.png')} />
+               <img src={require('../../img/homeAssets/usage-cards/5.png')} />
                 <h3 className="featureTitle">Automate Slack Posting</h3>
                 <p className="featureDescription">
                   Let's say that every time your favorite Medium publication release new story, you want to automatically post it on the specific Slack channel.
@@ -70,7 +70,7 @@ class Section6 extends React.Component {
              </div>
              <div className="col-md-4 featureBottom featureBottom3">
                <div className="usageCard">
-               <img src={require('../../../public/img/homeAssets/usage-cards/6.png')} />
+               <img src={require('../../img/homeAssets/usage-cards/6.png')} />
                 <h3 className="featureTitle">Talents Regrouting</h3>
                 <p className="featureDescription">
                   You have a project and need Meteor.js developer, but you don't wanna go trough platforms like Upwork etc.

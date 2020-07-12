@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 
-import '../../public/styles/home.css'
+import '..//styles/home.css'
 
 export default class subscribeThanks extends Component {
   constructor(props) {
     super(props);
   }
   componentDidMount(){
-    fbq('track', 'Confirmed Email', {
+    window.fbq('track', 'Confirmed Email', {
     value: 0,
     currency: 'USD'
     });

@@ -89,7 +89,7 @@ background-repeat: no-repeat;
 }
 /*
 .verticalVawes {
-  background-image: url("../../public/img/homeAssets/vertical-waves.png");
+  background-image: url("../img/homeAssets/vertical-waves.png");
   position: fixed;
   width:100%;
   height:100%;
@@ -606,7 +606,7 @@ border:none;
 
 .contactFormWrapper{
   padding-top: 120px;
-  background-image: url("../../public/img/homeAssets/dots-bg.png");
+  background-image: url("../img/homeAssets/dots-bg.png");
   background-position: center top;
   background-repeat: no-repeat;
   padding-bottom:100px;

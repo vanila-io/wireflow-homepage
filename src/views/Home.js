@@ -8,7 +8,7 @@ import Section5 from '../components/Sections/Section5';
 import Section6 from '../components/Sections/Section6';
 import Section7 from '../components/Sections/Section7';
 import SectionFewWords from '../components/Sections/SectionFewWords';
-import ContactForm from '../components/ContactForm/ContactForm';
+// import ContactForm from '../components/ContactForm/ContactForm';
 import ScrollReveal from 'scrollreveal';
 
 
@@ -127,8 +127,8 @@ export default class Preview extends Component {
               <Section6 />
               <Section7 />
               <SectionFewWords />
+              <ContactForm />
               */}
-              {/* <ContactForm /> */}
 
             </div>
 
