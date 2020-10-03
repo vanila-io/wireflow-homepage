@@ -22,12 +22,7 @@ class Section1 extends React.Component {
         <h1>Fully Open Source</h1>
         
         
-        <p>Vanila crew is in love with Meteor.js, which is latest technology based on JavaScript (Node.js). It gives you fast, realtime, scalable applications which work on all modern browsers and devices.</p>
-    
-    
-        <p>Vanila crew is in love with Meteor.js, which is latest technology based on JavaScript (Node.js). It gives you fast, realtime, scalable applications which work on all modern browsers and devices.</p>
-        
-        
+        <p>Vanila crew is in love with Meteor.js, which is latest technology based on JavaScript (Node.js). It gives you fast, realtime, scalable applications which work on all modern browsers and devices.</p>  
         
         <div className="btnFully">
         
