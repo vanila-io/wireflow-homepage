@@ -5,18 +5,11 @@ class Navigation extends React.Component {
   constructor(props) {
     super(props);
   }
-  componentDidMount(){
-      var audio = document.getElementById('audio');
-      audio.play();
-  }
   render() {
     return (
         
         
-      <nav className="navbar navbar-default z7">
-        <audio id="audio" src="https://front-end-noobs.com/jecko/assets/sound4.mp3"></audio>
-          
-
+      <nav className="navbar navbar-default z7">          
        <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         
         <div className="navbar-header">
