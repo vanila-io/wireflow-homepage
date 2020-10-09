@@ -82,7 +82,7 @@ class Header extends React.Component {
 
                       <h3>Real-Time collaboration</h3>
 
-                      <p>Wireflow comes with collaboration in mind. You can invite your co-worker and togehter in real-time design the user flow for your next project.</p>
+                      <p>Wireflow comes with collaboration in mind. You can invite your co-worker and together in real-time design the user flow for your next project.</p>
 
                     </div>
 
