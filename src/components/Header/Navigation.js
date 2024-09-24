@@ -41,15 +41,6 @@ class Navigation extends React.Component {
               </a>
             </li>
             <li>
-              <a href="https://uxstore.com" target="_blank">
-                <img
-                  src={require("../../img/homeAssets/wireFlow/icons/uxstoreIcon.jpg")}
-                  alt="uxstore.com"
-                />
-                UX Tools
-              </a>
-            </li>
-            <li>
               <a href="https://automatio.ai" target="_blank">
                 <img
                   src={require("../../img/homeAssets/wireFlow/icons/automatio-logo.png")}
