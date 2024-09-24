@@ -882,25 +882,44 @@ figure.backEffectOne {
     padding: 0px;
 }
 
-
-
 .secThreeMarBot {
     margin-bottom: 70px;
 }
 
+#sectionSponsors {
+  padding: 0 80px 100px 80px;
+}
+.sponsors h1 {
+  font-weight: bold;
+  font-size: 3.125em;
+  color: #171717;
+}
+.sponsors h2 {
+  font-weight: bold;
+  padding-bottom: 25px;
+}
 
+.sponsors .card {
+  font-weight: bold;
+  width: 120px;
+  padding: 10px;
+  text-align: center;
+}
 
+.sponsors .card img {
+  border-radius: 4px;
+  width: 100px;
+  height: 100px;
+}
 
+.sponsors a {
+  color: #171717;
+}
 
-
-
-
-
-
-
-
-
-
+.sponsors .cta-tiers {
+  font-weight :bold;
+  font-size: 1.5em;
+}
 
 
 #section6 h2{

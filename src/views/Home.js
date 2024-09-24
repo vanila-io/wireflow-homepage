@@ -4,6 +4,7 @@ import Header from '../components/Header/Header';
 import Section1 from '../components/Sections/Section1';
 import Section2 from '../components/Sections/Section2';
 import Section3 from '../components/Sections/Section3';
+import Sponsors from "../components/Sections/Sponsors";
 import Section5 from '../components/Sections/Section5';
 import Section6 from '../components/Sections/Section6';
 import Section7 from '../components/Sections/Section7';
@@ -122,6 +123,7 @@ export default class Preview extends Component {
               <Section1 />
               <Section2 />
               <Section3 />
+              <Sponsors />
               {/*
               <Section5 />
               <Section6 />
