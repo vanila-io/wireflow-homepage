@@ -899,6 +899,10 @@ figure.backEffectOne {
   padding-bottom: 25px;
 }
 
+.sponsors h3 {
+  font-weight: bold;
+}
+
 .sponsors .card {
   font-weight: bold;
   width: 120px;
@@ -921,6 +925,12 @@ figure.backEffectOne {
   font-size: 1.5em;
 }
 
+.sponsors .intro {
+  font-size: 1em;
+  font-weight: normal;
+  font-family: serif;
+  max-width: 1200px
+}
 
 #section6 h2{
   font-family: GothamBold;

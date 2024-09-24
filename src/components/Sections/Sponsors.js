@@ -90,7 +90,8 @@ class Sponsors extends React.Component {
             ),
         )}
         <div className="row cta-tiers">
-          <h2>Support us!</h2>
+          <h3>Support us</h3>
+          <p class="intro">Hey there! We're a small team working on this project and we could really use your support. If you're able to spare a few bucks each month as a sponsor, it would go a long way in keeping our project alive. Even if you can't sponsor us financially, spreading the word or contributing in other ways would be hugely valuable too. Whatever you decide, thanks for considering to help out - we really appreciate it!</p>
           <p><a target="_blank" href="https://opencollective.com/wireflow/contribute/backer-silver-2732/checkout">Bronze</a></p>
           <p><a target="_blank" href="https://opencollective.com/wireflow/contribute/sponsor-2733/checkout">SilveR</a></p>
           <p><a target="_blank" href="https://opencollective.com/wireflow/contribute/backer-gold-2741/checkout">Gold</a></p>
