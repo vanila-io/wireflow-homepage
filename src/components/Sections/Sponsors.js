@@ -13,7 +13,7 @@ class Sponsors extends React.Component {
     const response = await axios.get(
       "https://opencollective.com/wireflow/members/all.json",
     );
-    const cutoffDate = new Date('2024-09-24');
+    const cutoffDate = new Date("2024-09-24");
     const backers = response.data.filter(
       (member) =>
         member.role === "BACKER" &&
@@ -29,7 +29,7 @@ class Sponsors extends React.Component {
           id: backer.id,
           name: backer.name,
           image: backer.image,
-          website: backer.website,
+          website: backer.website || backer.profile,
           nofollow: String(backer.tier).toLowerCase().includes("nofollow"),
         });
       }
@@ -90,13 +90,13 @@ class Sponsors extends React.Component {
             ),
         )}
         <div className="row cta-tiers">
-          <h3>Support us</h3>
+          <h3><a href="https://opencollective.com/wireflow/contribute" target="_blank">Support us</a></h3>
           <p class="intro">Hey there! We're a small team working on this project and we could really use your support. If you're able to spare a few bucks each month as a sponsor, it would go a long way in keeping our project alive. Even if you can't sponsor us financially, spreading the word or contributing in other ways would be hugely valuable too. Whatever you decide, thanks for considering to help out - we really appreciate it!</p>
-          <p><a target="_blank" href="https://opencollective.com/wireflow/contribute/backer-silver-2732/checkout">Bronze</a></p>
-          <p><a target="_blank" href="https://opencollective.com/wireflow/contribute/sponsor-2733/checkout">SilveR</a></p>
-          <p><a target="_blank" href="https://opencollective.com/wireflow/contribute/backer-gold-2741/checkout">Gold</a></p>
-          <p><a target="_blank" href="https://opencollective.com/wireflow/contribute/diamond-tier-website-github-79732/checkout">Diamond</a></p>
-          <p><a target="_blank" href="https://opencollective.com/wireflow/contribute/annual-diamond-tier-18-discount-79733/checkout">Annual</a></p>
+          <p><a target="_blank" href="https://opencollective.com/wireflow/contribute/backer-silver-2732/checkout">Bronze</a> <span>tier</span></p>
+          <p><a target="_blank" href="https://opencollective.com/wireflow/contribute/sponsor-2733/checkout">SilveR</a> <span>tier</span></p>
+          <p><a target="_blank" href="https://opencollective.com/wireflow/contribute/backer-gold-2741/checkout">Gold</a> <span>tier</span></p>
+          <p><a target="_blank" href="https://opencollective.com/wireflow/contribute/diamond-tier-website-github-79732/checkout">Diamond</a> <span>tier</span></p>
+          <p><a target="_blank" href="https://opencollective.com/wireflow/contribute/annual-diamond-tier-18-discount-79733/checkout">Annual</a> <span>tier</span></p>
         </div>
       </div>
     );

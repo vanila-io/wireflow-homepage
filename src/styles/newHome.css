@@ -932,6 +932,10 @@ figure.backEffectOne {
   max-width: 1200px
 }
 
+.sponsors .cta-tiers span {
+  color: #333333;
+}
+
 #section6 h2{
   font-family: GothamBold;
     font-size: 3.6em!important;
