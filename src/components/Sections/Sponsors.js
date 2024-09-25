@@ -50,6 +50,22 @@ class Sponsors extends React.Component {
     return (
       <div id="sectionSponsors" class="sponsors">
         <h1 key="sponsors-section">Sponsors</h1>
+        <p class="intro">
+          Hey there! We're a small team working on this project and we could
+          really use your support. If you're able to{" "}
+          <a
+            href="https://opencollective.com/wireflow/contribute"
+            target="_blank"
+            style={{ textDecoration: "underline" }}
+          >
+            spare a few bucks each month
+          </a>{" "}
+          as a sponsor, it would go a long way in keeping our project alive.
+          Even if you can't sponsor us financially, spreading the word or
+          contributing in other ways would be hugely valuable too. Whatever you
+          decide, thanks for considering to help out - we really appreciate it!
+        </p>
+
         {Object.keys(tiers).map(
           (tier) =>
             tiers[tier].length > 0 && (
@@ -90,13 +106,59 @@ class Sponsors extends React.Component {
             ),
         )}
         <div className="row cta-tiers">
-          <h3><a href="https://opencollective.com/wireflow/contribute" target="_blank">Support us</a></h3>
-          <p class="intro">Hey there! We're a small team working on this project and we could really use your support. If you're able to spare a few bucks each month as a sponsor, it would go a long way in keeping our project alive. Even if you can't sponsor us financially, spreading the word or contributing in other ways would be hugely valuable too. Whatever you decide, thanks for considering to help out - we really appreciate it!</p>
-          <p><a target="_blank" href="https://opencollective.com/wireflow/contribute/backer-silver-2732/checkout">Bronze</a> <span>tier</span></p>
-          <p><a target="_blank" href="https://opencollective.com/wireflow/contribute/sponsor-2733/checkout">SilveR</a> <span>tier</span></p>
-          <p><a target="_blank" href="https://opencollective.com/wireflow/contribute/backer-gold-2741/checkout">Gold</a> <span>tier</span></p>
-          <p><a target="_blank" href="https://opencollective.com/wireflow/contribute/diamond-tier-website-github-79732/checkout">Diamond</a> <span>tier</span></p>
-          <p><a target="_blank" href="https://opencollective.com/wireflow/contribute/annual-diamond-tier-18-discount-79733/checkout">Annual</a> <span>tier</span></p>
+          <h3>
+            <a
+              href="https://opencollective.com/wireflow/contribute"
+              target="_blank"
+            >
+              Support us by dontaing via Open Collective
+            </a>
+          </h3>
+          <p>
+            <a
+              target="_blank"
+              href="https://opencollective.com/wireflow/contribute/backer-silver-2732/checkout"
+            >
+              Bronze
+            </a>{" "}
+            <span>tier</span>
+          </p>
+          <p>
+            <a
+              target="_blank"
+              href="https://opencollective.com/wireflow/contribute/sponsor-2733/checkout"
+            >
+              SilveR
+            </a>{" "}
+            <span>tier</span>
+          </p>
+          <p>
+            <a
+              target="_blank"
+              href="https://opencollective.com/wireflow/contribute/backer-gold-2741/checkout"
+            >
+              Gold
+            </a>{" "}
+            <span>tier</span>
+          </p>
+          <p>
+            <a
+              target="_blank"
+              href="https://opencollective.com/wireflow/contribute/diamond-tier-website-github-79732/checkout"
+            >
+              Diamond
+            </a>{" "}
+            <span>tier</span>
+          </p>
+          <p>
+            <a
+              target="_blank"
+              href="https://opencollective.com/wireflow/contribute/annual-diamond-tier-18-discount-79733/checkout"
+            >
+              Annual
+            </a>{" "}
+            <span>tier</span>
+          </p>
         </div>
       </div>
     );
