@@ -1,4 +1,5 @@
 import React from "react";
+import smallLogo from "../../img/homeAssets/wireFlow/logo.png";
 import { Route, Router, IndexRedirect, IndexRoute, Link } from "react-router";
 
 class Navigation extends React.Component {
@@ -32,6 +33,16 @@ class Navigation extends React.Component {
 
           <ul className="nav navbar-nav">
             <li>
+              <a href="/blog/" target="_blank">
+                <img
+                  src={smallLogo}
+                  alt="Wireflow blog"
+                  style={{ width: "36px" }}
+                />
+                Blog
+              </a>
+            </li>
+            <li>
               <a href="https://github.com/vanila-io/wireflow" target="_blank">
                 <img
                   src={require("../../img/homeAssets/wireFlow/icons/githubIcon.png")}
@@ -45,7 +56,7 @@ class Navigation extends React.Component {
                 <img
                   src={require("../../img/homeAssets/wireFlow/icons/automatio-logo.png")}
                   alt="automatio.ai"
-                  style={{"width": "auto"}}
+                  style={{ width: "auto" }}
                 />
                 Crafted by Automatio team
               </a>
